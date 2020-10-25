@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="navbar" class="navbar">
+    <a style="color: white;" id="btn1">Get Person By ID</a>
+    <a style="color: white;" id="btn2">Get Person By Phone</a>
+    <a style="color: white;" id="btn3">Add Person</a>
+    <a style="color: white;" id="btn4">Edit Person</a>
+    <a style="color: white;" id="btn5">Get Hobby By Name</a>
+    <a style="color: white;" id="btn6">Get all persons by hobbyname</a>
+    <a style="color: white;" id="btn7">Get CityInfo</a>
+  </div>
+
+
+  <div class="main">
+    <div id="1">
+      Gruppe 5: Alex Wagner, Nicolas Allesøe, Christoffer Foldager, Andreas Andersen<br><br>
+    </div>
+    
+    <div style="display: none;" id="2">
+      <input id="myInput2" />
+      <button type="submit" id="div2btn1">Get Person by ID</button>
+      <p id="text2"></p><br>
+    </div>
+
+    <div style="display: none;" id="3">
+      <input id="myInput3" value="Telefonummer"/>
+      <button type="submit" id="div3btn1">Get Person by Phone</button>
+      <p id="text3"></p>
+
+<br><br><br>
+    </div>
+    
+
+    <div style="display: none;" name="Add Person" id="4">
+      <form id="text4">
+        <label>Fornavn</label><br>
+        <input id="fNavn4" type="text"><br>
+        <label>Efternavn</label><br>
+        <input id="eNavn4" type="text"><br>
+        <label>Email</label><br>
+        <input id="email4" type="email"><br>
+        <label>Gade</label><br>
+        <input id="gade4" type="text"><br>
+        <label>Husnummer</label><br>
+        <input id="husnummer4" type="text"><br>
+        <label>Postnummer</label><br>
+        <input id="postnummer4" type="text"><br>
+        <button type="submit" id="div4btn1">Add person</button>
+      </form>
+      <br><br>
+    </div>
+
+    <div style="display: none;" name="Edit person" id="5">
+      <button type="submit" id="div5btn2">Send id</button>
+      <input type="number" id="myInput5">
+      <form id="text5">
+        <label>Fornavn</label><br>
+        <input id="fNavn5" type="text"><br>
+        <label>Efternavn</label><br>
+        <input id="eNavn5" type="text"><br>
+        <label>Email</label><br>
+        <input id="email5" type="email"><br>
+        <label>Gade</label><br>
+        <input id="gade5" type="text"><br>
+        <label>Husnummer</label><br>
+        <input id="husnummer5" type="text"><br>
+        <label>Postnummer</label><br>
+        <input id="postnummer5" type="text"><br>
+        <button type="submit" id="div5btn1">Edit person</button>
+      </form><br>
+    </div>
+
+    <div style="display: none;" name="Get Hobby by name" id="6">
+      <input id="myInput6" value="Hobby navn"/><br>
+      <button type="submit" id="div6btn1">Get Hobby by name</button>
+      <p id="text6"></p>
+
+   <br>
+    <br>
+    </div>
+
+ 
+    <div style="display: none;" name="Get all persons by hobbyname" id="7">
+      <input id="myInput7" value="Hobby navn"/><br>
+      <button type="submit" id="div7btn1">Get all persons by hobby name</button>
+      <table id="text7"></table>
+
+
+    </div>
+
+    <div style="display: none;" name="Get all Citys" id="8">
+      <button type="submit" id="div8btn1">Get all Citys</button>
+      <table id="text8"></table>
+    </div>
+
+    <!-- <div id="4">
+        Solution exercise 3 here
+      </div> -->
+  </div>
+  <script src="bundle.js"></script>
+  
+</body>
+
+</html>
